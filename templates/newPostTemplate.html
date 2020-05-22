@@ -1,0 +1,25 @@
+{% extends "userpage.html"%}
+
+{% block posts %}
+    {% for post in posts %}
+    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <form name = 'Ticket' method="post">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">заявка {{ post[0] }}</h5>
+                            <small>{{post[1]}}, {{ post[2] }}</small>
+                        </div>
+                        <p class="mb-1">P409AH (KHL-4000A) ЧЕТЫРЕХСТОЕЧНЫЙ ПОДЪЕМНИК PEAK 409AH (KHL-4000A), Г/П 4 ТОННЫ ДЛЯ СХОД-РАЗВАЛА</p>
+                        <small>283 494 Ꝑ</small>
+                        </form>
+                    </a>
+     {% endfor %}
+{% endblock %}
+
+
+{% block user_name %}
+    {{ user_name }}
+{% endblock %}
+
+{% block user_permit %}
+    {{ user_permit }}
+{% endblock %}

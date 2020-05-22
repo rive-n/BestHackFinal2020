@@ -1,0 +1,274 @@
+.body{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+.lg{display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 300px;
+    width: 320px;
+
+    
+    align-items: center;
+
+    background: rgb(48, 48, 221);
+    border-radius: 10px;
+
+}
+#head-txt{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top:10px;
+
+    
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 0 0 10px 10px;
+}
+input::-webkit-input-placeholder { color: black; }
+input::-moz-placeholder { color:black; }
+#E-mail_hint{
+    width:200px;
+    left: 60px;
+    margin-top: 10px;
+    padding-bottom: none;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: cornsilk;
+}
+#Password_hint {
+    width:200px;
+    left: 60px;
+    margin-bottom: 0px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: cornsilk;
+}
+
+#login{
+    position:relative;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    padding-left: 10px;
+    margin-top: 30px;
+
+
+    color: black;
+    background: white;
+    outline:none;
+    border:none;
+}
+#password{
+    position:relative;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    padding-left: 15px;
+    margin-top: 20px;
+    
+    color: black;
+    background:white;
+    outline:none;
+    border:none;
+    border:none;
+}
+
+#btn-singin{
+    position: relative;
+    width: 215px;
+    height: 3opx;
+    border-radius: 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 10px;
+    text-decoration-color: black;  
+    color: black;
+    background:rgba(255, 255, 255, 0.747);
+    outline:none;
+    border: none;
+
+    transition: color 0.2s linear;
+}
+
+#reg, a{
+    margin-top: 25px;
+    position: relative;
+    width: 320px;
+    height: 50px;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    color: white ;
+}
+
+.body{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+.lg-2{display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 365px;
+    width: 320px;
+
+    
+    align-items: center;
+
+    background: rgb(48, 48, 221);
+    border-radius: 10px;
+
+}
+#head-txt-2{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top:10px;
+
+    
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 0 0 10px 10px;
+}
+input::-webkit-input-placeholder { color: black; }
+input::-moz-placeholder { color:black; }
+#E-mail_hint-2{
+    width:200px;
+    left: 60px;
+    margin-top: 10px;
+    padding-bottom: none;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: cornsilk;
+}
+#Password_hint-2 {
+    width:200px;
+    left: 60px;
+    margin-bottom: 0px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: cornsilk;
+}
+#CopyPassword_hint-2 {
+    width:200px;
+    left: 60px;
+    margin-bottom: 0px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: cornsilk;
+}
+
+#login-2{
+    position:relative;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    padding-left: 10px;
+    margin-top: 30px;
+
+
+    color: black;
+    background: white;
+    outline:none;
+    border:none;
+}
+#password-2{
+    position:relative;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    padding-left: 15px;
+    margin-top: 20px;
+    
+    color: black;
+    background:white;
+    outline:none;
+    border:none;
+    border:none;
+}
+
+#btn-singin-2{
+    position: relative;
+    width: 215px;
+    height: 3opx;
+    border-radius: 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    
+    line-height: 28px;
+    margin-top: 10px;
+    text-decoration-color: black;  
+    color: black;
+    background:rgba(255, 255, 255, 0.747);
+    outline:none;
+    border: none;
+
+    transition: color 0.2s linear;
+}
+
+#reg-2, a{
+    margin-top: 25px;
+    position: relative;
+    width: 320px;
+    height: 50px;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    color: white ;
+}
+

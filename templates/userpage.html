@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="column">   
+        <nav class="navbar navbar-default-lg-7" style="background-color:rgb(48, 48, 221) ;">
+            <div class="nabar-header">
+                <span class="navbar-brend" id="head-txt-2">MH system</span>
+            </div>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="/mainPage?do=new_post">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">User</a>
+            </li>
+          </ul>
+        </nav>
+        <form class="row">
+            <button type="button" class="btn btn-outline-primary">Главный</button>
+            <button type="button" class="btn btn-outline-secondary">Вторичный</button>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#">Предидущая</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Следующая</a></li>
+                </ul>
+              </nav>
+        </form>
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="list-group">
+                    {% block ticket_block %}{% endblock %}
+                    {% block posts %}{% endblock %}
+                </div>
+            </div>
+            <div class="col-lg-2" style="height:100%">
+                <span>Пользователь:</span><span>&nbsp;{% block user_name %}{% endblock %}&nbsp;</span>
+                <span>Админ:</span><span>&nbsp;{% block user_permit %}{% endblock %}&nbsp;</span>
+                <a id="Mmn" href="http://t-do.ru/BestHack2020_SupportBot"><button style="border-radius: 15px;">Поддержка<img src="../static/dist/hotpng.png" height="50px" width="50px"></button></a>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
