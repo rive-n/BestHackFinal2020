@@ -21,7 +21,11 @@ Telegram bot api used to interact with users. A friendly interface, a couple of 
 + ~~MYsql~~ ` PGsql `
 + ` Telebot `
 + ` JS `
-+ ` Some js frameworks `
++ ` babel `
++ ` webpack `
++ ` jquery `
++ ` bootstrap `
+
 
 ## Authors
 
